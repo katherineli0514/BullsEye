@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BullsEye
 //
-//  Created by Han Li on 9/25/18.
+//  Created by Katherine Li on 9/25/18.
 //  Copyright © 2018 katherine. All rights reserved.
 //
 
