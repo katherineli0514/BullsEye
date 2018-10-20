@@ -14,6 +14,8 @@
 		36969B84215B4ABB0016ECD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36969B82215B4ABB0016ECD3 /* LaunchScreen.storyboard */; };
 		36969B8F215B4ABB0016ECD3 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36969B8E215B4ABB0016ECD3 /* BullsEyeTests.swift */; };
 		36969B9A215B4ABB0016ECD3 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36969B99215B4ABB0016ECD3 /* BullsEyeUITests.swift */; };
+		88C953E8217B009600969651 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C953E7217B009600969651 /* AboutViewController.swift */; };
+		88C953EA217B082800969651 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 88C953E9217B082800969651 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		36969B95215B4ABB0016ECD3 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36969B99215B4ABB0016ECD3 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		36969B9B215B4ABB0016ECD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C953E7217B009600969651 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		88C953E9217B082800969651 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = ../../../Downloads/BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		36969B78215B4ABB0016ECD3 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				88C953E9217B082800969651 /* BullsEye.html */,
 				36969B79215B4ABB0016ECD3 /* AppDelegate.swift */,
 				36969B7B215B4ABB0016ECD3 /* ViewController.swift */,
+				88C953E7217B009600969651 /* AboutViewController.swift */,
 				36969B7D215B4ABB0016ECD3 /* Main.storyboard */,
 				36969B80215B4ABB0016ECD3 /* Assets.xcassets */,
 				36969B82215B4ABB0016ECD3 /* LaunchScreen.storyboard */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36969B84215B4ABB0016ECD3 /* LaunchScreen.storyboard in Resources */,
+				88C953EA217B082800969651 /* BullsEye.html in Resources */,
 				36969B81215B4ABB0016ECD3 /* Assets.xcassets in Resources */,
 				36969B7F215B4ABB0016ECD3 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C953E8217B009600969651 /* AboutViewController.swift in Sources */,
 				36969B7C215B4ABB0016ECD3 /* ViewController.swift in Sources */,
 				36969B7A215B4ABB0016ECD3 /* AppDelegate.swift in Sources */,
 			);
@@ -430,8 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2PN39ZR72;
+				DEVELOPMENT_TEAM = TJ6XDGHC58;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = katherine.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2PN39ZR72;
+				DEVELOPMENT_TEAM = TJ6XDGHC58;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = katherine.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
