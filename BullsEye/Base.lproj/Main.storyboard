@@ -118,7 +118,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="InfoButton" backgroundImage="SmallButton"/>
                                         <connections>
-                                            <action selector="infoButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MM-cM-rzs"/>
+                                            <action selector="infoButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3EY-eC-MG2"/>
                                             <segue destination="7Hh-4r-GGb" kind="presentation" modalTransitionStyle="flipHorizontal" id="3fi-e1-hFU"/>
                                         </connections>
                                     </button>

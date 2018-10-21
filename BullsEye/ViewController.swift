@@ -101,5 +101,8 @@ class ViewController: UIViewController {
         view.layer.add(transition, forKey: nil)
     }
     
+    @IBAction func infoButtonClicked(_ sender: UIButton) {
+    }
+    
 }
 
