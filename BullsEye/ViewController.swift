@@ -92,9 +92,14 @@ class ViewController: UIViewController {
         score = 0
         round = 0
         startNewRound()
+        
+        // Add crossfade animation after starting a new game
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
     
-    @IBAction func infoButtonClicked(_ sender: UIButton) {
-    }
 }
 
